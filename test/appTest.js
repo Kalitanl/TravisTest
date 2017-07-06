@@ -17,6 +17,6 @@ describe('App', function(){
   });
   it('addNumbers should be above five',function(){
     let result = app.addNumbers(5,5);
-    assert.isAbove(result, 20);
+    assert.isAbove(result, 5);
   });
 });
